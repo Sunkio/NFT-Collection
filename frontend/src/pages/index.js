@@ -2,7 +2,7 @@ import { Contract, providers, utils } from "ethers";
 import Head from "next/head";
 import React, { useEffect, useRef, useState } from "react";
 import Web3Modal from "web3modal";
-import { abi, NFT_CONTRACT_ADDRESS } from "../constants";
+import { abi, NFT_CONTRACT_ADDRESS } from "../../constants";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -356,7 +356,7 @@ export default function Home() {
           <div>
             <h1 className={styles.title}>Welcome to Crypto Devs!</h1>
             <div className={styles.description}>
-              Its an NFT collection for developers in Crypto.
+              It's an NFT collection for developers in Crypto.
             </div>
             <div className={styles.description}>
               {tokenIdsMinted}/20 have been minted
