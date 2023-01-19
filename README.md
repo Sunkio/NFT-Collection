@@ -4,6 +4,9 @@
 
 
 ## Getting Started
+You can interact with the deployed testnet app here: https://nft-collection-uo3l.vercel.app/
+To mint an NFT your wallet address must be whitelisted - to do this, please visit this Whitelist site that runs on Goerli as well: https://whitelist-dapp-goerli-eight.vercel.app
+
 
 ### Prerequisites
 Have Node.js installed on your computer. This project was developed using Node.js v18.7.0.
